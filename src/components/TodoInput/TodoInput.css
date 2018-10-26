@@ -1,0 +1,45 @@
+.input-block {
+    background-color: #ade0db;
+    width: 90%;
+    min-height: 90px;
+    margin: 35px auto 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.input-block--edit {
+    background-color: #96cb6f;
+    margin-top: 20px;
+    min-height: 93px;
+}
+
+.input-block__input {
+    border-radius: 5px;
+    min-height: 35px;
+    flex-basis: 65%;
+    border-color: #014b3e;
+    padding-left: 5px;
+    font-size: 18px;
+
+}
+
+.input-block__input::placeholder {
+    color: #c6c6c6;
+    font-size: 18px;
+}
+
+.input-block__button {
+    min-height: 38px;
+    flex-basis: 20%;
+    border-radius: 5px;
+    background-color: #014b3e;
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+
